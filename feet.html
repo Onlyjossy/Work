@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Shopping Site</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="feet.css">
+    <script src="https://kit.fontawesome.com/3df60fe6e2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="bg-light">
+    <header class="header">
+        <nav class="navbar w-100 bg-light">
+            <div>
+                <h1>
+                    <span class="fa-solid fa-shoe-prints"></span>
+                    FEET
+                </h1> 
+            </div>
+          
+            <div class="navv">
+                <a href="#mens">Men</a>
+                <a href="#womens">Women</a>
+                <a href="#aboutt">About</a>
+                <span id="contact" class="display-6">Contact
+                    <div class="contact-content">
+                    <a href="https://instagram.com/_only1jossy?igshid=YzAwZjE1ZTI0Zg==" target="_blank"><span class="fa-brands fa-instagram text-light display-6"></span></a>
+                    <a href="https://twitter.com/only1jossy" target="_blank"><span class="fa-brands fa-x-twitter text-light display-6"></span></a>
+                    <a href="https://www.facebook.com/joseph.odunuyi?mibextid=LQQJ4d" target="_blank"><span class="fa-brands fa-facebook text-light display-6"></span></a>
+                    </div>
+                
+                </span>
+            </div>
+               
+        </nav>
+        <div class="header-banner">
+
+        </div>
+
+    </header>
+    <section class="men" id="mens" >
+        <div>
+            <h1>
+                SHOP MEN
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 card p-3 " id="men-item">
+                    <img src="Images/loafers.webp" width="100%" height="100%"  alt="">
+                    <p>
+                    Men's Loafers <br>
+                    40-46 <br>
+                    N20,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3 " id="men-item">
+                    <img src="Images/corporate shoes.webp" width="100%" height="100%" alt="">
+                    <p>
+                        Corporate Shoes <br>
+                        40-45 <br>
+                        N25,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3 " id="men-item">
+                    <img src="Images/sandals.jpg" width="100%" height="100%" alt="">
+                    <p>
+                        Men's Sandals <br>
+                        39-45 <br>
+                        N13,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3 " id="men-item">
+                    <img src="Images/half shoe.jpg" width="100%" height="100%"  alt="">
+                    <p>
+                        Half Shoes <br>
+                        40-44 <br>
+                        N22,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <a  onclick="more()" id="more">...shop more</a>
+                <div class="col-3 card p-3" id="open" style="display: none;">
+                        <img src="Images/flip flop.jpg" width="100%" height="100%" alt="">
+                        <p>
+                            Flip Flops <br>
+                            38-46 <br>
+                            N10,500
+                        </p>
+                        <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="open1" style="display: none;">
+                    <img src="Images/spikes.webp" width="100%" height="100%" alt="">
+                    <p>
+                        Running Spikes <br>
+                        41-45 <br>
+                        N75,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="open2" style="display: none;">
+                    <img src="Images/sneakers.jpg" width="100%" height="100%" alt="">
+                    <p>
+                        Men's Sneakers <br>
+                        39-46 <br>
+                        N19,500
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="open3" style="display: none;">
+                    <img src="Images/running shoes.webp" width="100%" height="80%" alt="">
+                    <p>
+                        Running Shoes  <br>
+                        38-46 <br>
+                        N15,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="open4" style="display: none;">
+                    <img src="Images/boots.jpg" width="100%" height="80%" alt="">
+                    <p>
+                        Men's Boots <br>
+                        41-46  <br>
+                        N20,500
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="open5" style="display: none;">
+                    <img src="Images/slides og.jpg" width="100%" height="100%" alt="">
+                    <p>
+                        Slides <br>
+                        39-44 <br>
+                        N11,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+            </div>
+            <a  onclick="less()" id="hehe" style="display: none;">...show less</a>
+        </div>
+        
+    </section>
+    <section class="women" id="womens">
+        <div>
+            <h1>
+                SHOP WOMEN
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 card p-3" id="women-item" >
+                    <img src="Images/women1.jpg" width="100%" height="100%" alt="">
+                    <p>
+                        Ladies Pam <br>
+                        36-41 <br>
+                        N9,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="women-item">
+                    <img src="Images/womens flatswebp.webp" width="100%" height="100%" alt="">
+                    <p>
+                    Ladies Flats <br>
+                    37-40 <br>
+                    N17,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="women-item">
+                    <img src="Images/small heel.jpg" width="100%" height="100%" alt="">
+                    <p>
+                    Shoe <br>
+                     38-46 <br>
+                     N10,500
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="women-item">
+                    <img src="Images/Heels.jpg" width="100%" height="100%" alt="">
+                    <p>
+                        Heels <br>
+                        37-41 <br>
+                        N17,000
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <a onclick="clicks()" id="click">...shop more</a>
+                <div class="col-3 card p-3" id="click1" style="display: none;">
+                    <img src="Images/flip flop.jpg" width="100%" height="100%" alt="">
+                    <p>
+                        Flip Flop <br>
+                        38-46 <br>
+                        N10,500
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div class="col-3 card p-3" id="click2" style="display: none;">
+                    <img src="Images/sneakers.jpg" width="100%" height="100%" alt="">
+                    <p>
+                        Sneakers <br>
+                        39-44 <br>
+                        N19,500
+                    </p>
+                    <button class="btn btn-info">BUY NOW</button>
+                </div>
+                <div>
+                    
+                </div>
+                
+            </div>
+            <a onclick="haha()" id="haha" style="display: none;">...show less</a>
+        </div>
+    </section>
+    <section class="about" id="aboutt">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" style="padding-top: 3rem;">
+                    <img src="Images/unnamed logo.png" width="100%" height="80%"  width="100%" height="auto" alt="">
+                </div>
+                <div class="col-6" style="padding-top: 4rem;">
+                    <h2>About Us</h2>
+                    <p>
+                     Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, velit magni nisi corrupti, porro ea dolorem ullam totam quasi ad omnis magnam harum ipsa quibusdam aliquam aperiam alias sunt culpa? ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatibus sapiente molestiae quos minima unde fugit nihil consectetur, praesentium suscipit at itaque assumenda quas? Iure cumque itaque eveniet sint quisquam?
+                     Praesentium deleniti dolore impedit ab, minima dolorum id molestias enim repudiandae eos at inventore blanditiis odit nemo incidunt vitae ipsa ad expedita recusandae. Quo, sunt alias veritatis libero iste adipisci.
+                     Explicabo fugiat libero, sapiente facilis maxime impedit aspernatur voluptatibus quis at eligendi debitis eaque natus? Atque hic animi sunt sit, deleniti ipsa veniam nulla rem nesciunt repudiandae eveniet vitae nostrum?
+                    </p>
+                    <a href="mailto:josephololade7@gmail.com" target="_blank" class="btn"> <span class=" fa-solid fa-envelope"></span> Send A Mail</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <span>
+        <a href="https://instagram.com/_only1jossy?igshid=YzAwZjE1ZTI0Zg==" target="_blank"><span class="fa-brands fa-instagram text-light display-6"></span></a>
+        <a href="https://twitter.com/only1jossy" target="_blank"><span class="fa-brands fa-x-twitter text-light display-6"></span></a>
+        <a href="https://www.facebook.com/joseph.odunuyi?mibextid=LQQJ4d" target="_blank"><span class="fa-brands fa-facebook text-light display-6"></span></a>
+        </span>
+         </div>
+        <br>
+        <div>
+            <p>
+                © Copyright 2024 Odunuyi Joseph. All Rights Reserved.
+            </p> 
+        </div>
+       
+    </footer>
+</body>
+</html>
+<script src="feet.js"></script>

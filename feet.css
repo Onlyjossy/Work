@@ -1,0 +1,196 @@
+.header{
+    margin-bottom: 5rem;
+}
+.header-banner{
+    background: linear-gradient(rgba(255, 0, 0, 0.281), rgba(0, 0, 255, 0.264)), url(Images/Shoes.webp);
+    background-size: cover;
+    padding: 15rem 3rem 30rem 3rem;
+     
+}
+.header h1{
+    font-size: 50px;
+}
+.navv{
+    margin-top: 2rem;
+}
+.navv a{
+    margin-right: 3rem;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.navv a:hover{
+    color: brown;
+}
+.men{
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 6rem;
+    padding: 5rem;
+}
+.men h1{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 3px 3px brown;
+}
+
+.men p{
+    text-align: center;
+    font-size: 20px;
+}
+#men-item{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+#men-item:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#open{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+#open:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#open1{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+#open1:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#open2{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+
+#open2:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#open3{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+
+#open3:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#open4{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+
+#open4:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#open5{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+
+#open5:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#more:hover{
+    color: blue;
+    cursor: pointer;
+}
+#hehe:hover{
+    color: blue;
+    cursor: pointer;
+}
+.women{
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 6rem;
+    padding: 5rem;
+}
+
+.women h1{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 3px 3px brown;
+}
+.women p {
+    text-align: center;
+    font-size: 20px;
+}
+#women-item{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+
+#women-item:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#click:hover{
+    color: blue;
+    cursor: pointer;
+}
+#haha:hover {
+    color: blue;
+    cursor: pointer;
+}
+#click1{
+    border: 5px solid rgb(238, 238, 238);
+    transition: 500ms;
+}
+#click1:hover{
+   transform: scale(1.1);
+    z-index: 1; 
+}
+.about{
+    background-color: rgb(238, 238, 238);
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+.about h2{
+    margin-top: 2rem;
+    text-shadow: 1px 1px brown;
+    text-align: center;
+}
+.about a {
+    font-size: 20px;
+    background-color: brown ;
+    color: white;
+    margin-left: 10rem;
+}
+
+.contact-content{
+    background-color: brown;
+    border-radius: 5px;
+    width: 30vw;
+    height: 0px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    display: grid;
+    top: 40px;
+    gap: 40px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+#contact:hover{
+    cursor: pointer;
+    .contact-content{
+        height: 90px;
+    }
+}
+.footer{
+    background-color: black;
+    height: 8rem;
+    text-align: center;
+    padding: 2rem;
+}
+.footer p{
+    color: white;
+    margin-bottom: 2rerm;
+}
+footer a{
+    margin-right: 3rem;
+}

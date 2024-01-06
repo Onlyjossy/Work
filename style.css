@@ -1,0 +1,117 @@
+.header-banner{
+    background-color: rgb(238, 238, 238);
+    padding: 6rem 3rem 2rem 3rem;
+    margin-bottom: 6rem;
+} 
+.header-banner h1{
+    text-shadow: 3px 1px purple;
+    font-size: 45px;
+    transition: 500ms;
+}
+.header-banner p:hover{
+    animation: 3s jello;
+}
+.header-banner a{
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+}
+.what{
+    margin-bottom: 6rem;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 4rem;
+
+}
+.what h1{
+    margin-bottom: 3rem;
+    font-size: 50px;
+    text-shadow: 3px 3px white;   
+}
+.what h1:hover{
+    animation: 3s rubberBand;
+}
+.what span{
+    color: purple;
+}
+.what h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+  transition: 500ms;
+}
+.what h3:hover{
+    color: white;
+    text-shadow: 3px 3px purple;
+    transform: scale(1.1);
+    animation: 3s tada;
+}
+.what p{
+    transition: 500ms;
+    
+}
+#what{
+    transition: 500ms;
+    border: 2px solid purple;
+}
+#what:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.about{
+   margin-bottom: 6rem;
+   padding: 6rem 2rem;
+}
+.about h3{
+    margin-top: 2rem;
+    font-size: 45px;
+    text-shadow: 3px 3px white;
+}
+.about h3:hover{
+    animation: 3s tada;
+    font-size: 40px;
+}
+.Projects{
+    margin-bottom: 6rem;
+    background-color:rgb(238, 238, 238);
+    padding: 7rem;
+}
+.Projects p{
+    text-align: center;
+}
+.Projects h1{
+    text-align: center;
+    text-shadow: 3px 3px white;
+    margin-bottom: 2rem;
+}
+.Projects h1:hover{
+    animation: 3s swing;
+}
+#project-item{
+    border: 2px solid purple;
+    transition: 500ms;
+    
+}
+#project-item:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.footer{
+    background-color: black;
+    height: 11rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: larger;
+}
+.footer a{
+    color: white;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.footer a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.footer p{
+    color: white;
+}
